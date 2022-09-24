@@ -31,7 +31,7 @@
         <form action="{{route('categories.destroy',$categories->id) }}" method="post">
         @csrf
         @method('delete')
-        <button>Delete</button>
+        <button class="btn btn">Delete</button>
         </form>
 
       </td>     
